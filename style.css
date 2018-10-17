@@ -1,0 +1,83 @@
+body {
+  font-family: Noto Sans;
+  color: rgb(75, 75, 75);
+  background-color: rgb(250,250,250);
+}
+
+h1, h2, h3 {
+  font-family: Inconsolata;
+  line-height: 22px;
+}
+
+h1 {
+  color: #369FA6;
+  font-size: 28px;
+}
+
+h2, h3 {
+  color: #00BFC7;
+  font-size: 24px;
+}
+
+a {
+  color: #E6BD7F;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 105%;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 66%;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    min-width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    min-width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    min-width: 300px;
+  }
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-style {
+    background-color: rgb(255,255,255);
+    border-radius: 8px;
+    border: 1px solid rgb(240,240,240);
+    box-shadow: 1px 1px 3px rgb(200,200,200);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
