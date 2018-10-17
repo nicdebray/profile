@@ -70,6 +70,8 @@ ul {
     border-radius: 8px;
     border: 1px solid rgb(240,240,240);
     box-shadow: 1px 1px 3px rgb(200,200,200);
+    padding: 7px;
+    margin-top: 7px;
 }
 
 .list-inline > li {
@@ -81,3 +83,14 @@ ul {
   padding-left: 0px;
 }
 
+.social-icon-style {
+  padding-right: 4px;
+}
+
+.img-rad {
+  border-radius: 2px;
+}
+
+.table-width {
+  width: 100%;
+}
